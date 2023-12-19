@@ -1,0 +1,253 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.name{
+    letter-spacing: 2px;
+    padding: 2rem;
+    display: flex;
+}
+.name h3{
+    font-family: 'Jost', sans-serif;
+}
+.name h6{
+    opacity: 50%;
+    margin-left: 450px;
+    margin-top: 15px;
+}
+.image{
+    width: 1000px;
+    height: 600px;
+    left: 600px;
+    bottom: 110px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    background-image: url("../Assets/01.png");
+}
+.Text-Section{
+    position: absolute;
+    margin: auto;
+    bottom: 60px;
+    padding: 7rem;
+}
+.Text-Section h1{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.Text-Section p{
+    font-family: 'PT Sans Caption', sans-serif;
+}
+.Text-Section h5{
+    opacity: 50%;
+}
+
+.btn {
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.2);
+    color: #000000;
+    border: 1px solid darkgrey;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn-light {
+    background: transparent;
+    color: blue;
+}
+
+.btn:hover{
+    background: rgb(2, 11, 45);
+    color: #ffffff;
+    transition: 0.5s;
+
+}
+h1,h4,p,a{
+    color: black;
+    text-decoration: none;
+
+}
+.contact-menu{
+    position: absolute;
+    margin: auto;
+    bottom: 25px;
+    left: 600px;
+
+}
+.nav-link{
+    color: black;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: bold;
+    display: flex;
+
+}
+
+#contact-now{
+    margin-right: 455px;
+}
+
+@media screen and (max-width: 1440px)  {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .Text-Section{
+        bottom: 10px;
+
+    }
+    .contact-menu{
+        bottom: -65px;
+        left: 600px;
+
+    }
+    #contact-now{
+        margin-right: 400px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .name h6{
+        margin-left: 200px;
+        margin-top: 10px;
+    }
+
+    .image{
+        width: 800px;
+        height: 550px;
+        left: 300px;
+        bottom: 110px;
+    }
+
+
+    .contact-menu{
+        bottom: -10px;
+        left: 370px;
+    }
+    #contact-now {
+        margin-right: 250px;
+    }
+    Text-Section{
+        position: absolute;
+        margin: auto;
+        bottom: 60px;
+        padding: 7rem;
+    }
+    .Text-Section h1{
+        font-size: 25px;
+    }
+    .Text-Section p{
+        font-size: 12px;
+    }
+    .Text-Section h5{
+        font-size: 15px;
+        opacity: 50%;
+    }
+
+    .btn {
+        padding: 12px 32px;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        background: rgba(255, 255, 255, 0.2);
+        color: #000000;
+        border: 1px solid darkgrey;
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .name h6{
+        margin-left: 200px;
+        margin-top: 10px;
+    }
+
+    .image{
+        width: 700px;
+        height: 600px;
+        left: 200px;
+        bottom: 110px;
+    }
+    .contact-menu{
+        bottom: -50px;
+        left: 200px;
+    }
+    #contact-now {
+        margin-right: 170px;
+    }
+    .Text-Section{
+        bottom: 20px;
+        padding: 6rem;
+        width: 450px;
+    }
+}
+@media screen and (max-width: 426px){
+    .image {
+        width: 700px;
+        height: 600px;
+        left: 23px;
+        bottom: -229px;
+    }
+
+    .Text-Section {
+        bottom: 20px;
+        padding: 6rem;
+        width: 532px;
+    }
+
+    .Text-Section h1 {
+        font-size: 45px;
+    }
+
+    .name h6 {
+        margin-left: 421px;
+        margin-top: 12px;
+    }
+
+    .contact-menu {
+        bottom: -410px;
+        left: 19px;
+    }
+    #contact-now {
+        margin-right: 13px;
+    }
+}
+
+@media screen and (max-width: 376px){
+    .image {
+        width: 573px;
+        height: 615px;
+        left: 42px;
+        bottom: -206px;
+    }
+
+    .name h6 {
+        margin-left: 361px;
+        margin-top: 13px;
+    }
+    #ccc{
+        align-items: flex-end;
+        margin-right: -609px;
+    }
+    .contact-menu {
+        bottom: -390px;
+        left: 1px;
+    }
+    #contact-now {
+        margin-right: 131px;
+    }
+}
