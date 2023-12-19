@@ -75,27 +75,29 @@ h1,h4,p,a{
     text-decoration: none;
 
 }
-.contact-menu{
-    position: absolute;
-    margin: auto;
-    bottom: 25px;
-    left: 600px;
 
-}
-.nav-link{
+.nav-link {
     color: black;
-    text-transform: uppercase;
-    font-size: 0.7rem;
     font-weight: bold;
-    display: flex;
-
 }
+
 
 #contact-now{
-    margin-right: 455px;
+    margin-right: 300px;
 }
-
+.contact-menu{
+    width: fit-content;
+    position: relative;
+    left:  294px;
+    right: 0;
+    bottom: 90px;
+    margin: auto;
+}
 @media screen and (max-width: 1440px)  {
+
+    .image {
+        width: 839px;
+    }
 
     body{
         overflow-x: hidden;
@@ -104,14 +106,6 @@ h1,h4,p,a{
     .Text-Section{
         bottom: 10px;
 
-    }
-    .contact-menu{
-        bottom: -65px;
-        left: 600px;
-
-    }
-    #contact-now{
-        margin-right: 400px;
     }
 
 }
@@ -129,16 +123,7 @@ h1,h4,p,a{
         left: 300px;
         bottom: 110px;
     }
-
-
-    .contact-menu{
-        bottom: -10px;
-        left: 370px;
-    }
-    #contact-now {
-        margin-right: 250px;
-    }
-    Text-Section{
+    .Text-Section{
         position: absolute;
         margin: auto;
         bottom: 60px;
@@ -154,17 +139,9 @@ h1,h4,p,a{
         font-size: 15px;
         opacity: 50%;
     }
-
-    .btn {
-        padding: 12px 32px;
-        font-size: 0.7rem;
-        text-transform: uppercase;
-        background: rgba(255, 255, 255, 0.2);
-        color: #000000;
-        border: 1px solid darkgrey;
-        font-weight: 600;
-        cursor: pointer;
-        border-radius: 10px;
+    .contact-menu {
+        left: 210px;
+        bottom: 77px;
     }
 
 }
@@ -176,18 +153,15 @@ h1,h4,p,a{
         margin-top: 10px;
     }
 
-    .image{
-        width: 700px;
-        height: 600px;
+    .image {
+        width: 682px;
+        height: 585px;
         left: 200px;
         bottom: 110px;
     }
-    .contact-menu{
-        bottom: -50px;
-        left: 200px;
-    }
-    #contact-now {
-        margin-right: 170px;
+    .contact-menu {
+        bottom: 91px;
+        left: 164px;
     }
     .Text-Section{
         bottom: 20px;
@@ -217,37 +191,48 @@ h1,h4,p,a{
         margin-left: 421px;
         margin-top: 12px;
     }
-
     .contact-menu {
-        bottom: -410px;
-        left: 19px;
+        bottom: -242px;
+        left: 169px;
     }
+
     #contact-now {
-        margin-right: 13px;
+        margin-right: -1px;
     }
 }
 
 @media screen and (max-width: 376px){
     .image {
-        width: 573px;
-        height: 615px;
-        left: 42px;
-        bottom: -206px;
+        width: 599px;
+        height: 586px;
+        left: -46px;
+        bottom: -208px;
     }
 
-    .name h6 {
-        margin-left: 361px;
-        margin-top: 13px;
-    }
-    #ccc{
-        align-items: flex-end;
-        margin-right: -609px;
-    }
     .contact-menu {
-        bottom: -390px;
-        left: 1px;
+        bottom: -233px;
+        left: 5px;
     }
+
     #contact-now {
-        margin-right: 131px;
+        margin-right: 168px;
     }
+    .Text-Section h5 {
+        font-size: 12px;
+    }
+    .Text-Section h1 {
+        font-size: 42px;
+    }
+    .Text-Section p {
+        font-size: 12px;
+    }
+    .name h3 {
+        font-family: 'Jost', sans-serif;
+        font-size: 20px;
+    }
+    .name h6 {
+        margin-left: 325px;
+        margin-top: 0;
+    }
+
 }
